@@ -22,6 +22,7 @@ namespace OOP_DataTable
             //Insert your SQL DataBase Column Headers
             string[] dataHeaders = { "ID", "Name", "Type", "Price", "Date" };
             //Create data table
+            //Add your ColumnHeaders and Data types!
             DataTable tbl = new DataTable();
             tbl.Columns.Add(new DataColumn("ID", typeof(string)));
             tbl.Columns.Add(new DataColumn("Vendor", typeof(string)));
